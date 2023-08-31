@@ -1,3 +1,4 @@
+//COLORES
 const rojo = {
   esFuerte() {
     return true
@@ -23,6 +24,7 @@ const pardo = {
     return false
   }
 }
+//MATERIALES
 const cobre = {
   esBrilloso() {
     return true
@@ -48,7 +50,7 @@ const cuero = {
     return false
   }
 }
-
+//OBJETOS
 const remera = {
   peso : 800,
   color : rojo,
@@ -87,7 +89,7 @@ const placa = {
     this.color = color
   }
 }
-
+//OTROS
 const arito = {
   peso : 180,
   color : celeste,
@@ -111,7 +113,7 @@ const cajita = {
     this.peso += objeto.peso
   }
 }
-
+//PERSONAS
 const rosa = {
   leGusta(objeto) {
     return objeto.peso <= 2000 
@@ -135,7 +137,7 @@ const juan = {
     return !objeto.color.esFuerte()||objeto.peso >= 1200 && objeto.peso <=      1800
   }
 }
-
+//BOLICHITO
 const bolichito = {
   vidriera : remera,
   mostrador : pelota,
